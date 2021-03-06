@@ -1,0 +1,366 @@
+/* ---------- css code for responsive layout  ---------- */
+
+/* ----------------------------------------------------------------------
+*   1 - media screen and (max-width: 1199px)
+*   2 - media screen and (max-width: 991px)
+*   3 - media screen and (max-width: 767px)
+*   4 - media screen and (max-width: 680px)
+*   5 - media screen and (max-width: 480px)
+*   6 - media screen and (max-width: 320px)
+---------------------------------------------------------------------- */
+
+
+/*  ------------------------------------------------------------------------------------------
+1 - media screen and (max-width: 1199px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1199px) {
+	.header-section ul.main-menu>li>a {
+		padding: 30px 20px;
+	}
+	.tabs .tab a {
+		padding: 0 10px;
+	}
+
+	.top-post .hot-post .hot-post-stacked {
+		padding: 15px;
+	}
+	ul.post-mate li a {
+		font-size: 18px;
+	}
+
+	.top-post .hot-post .hot-post-image {
+		width: 100%;
+		float: none;
+	}
+	.top-post .hot-post .tag,
+	.top-post .hot-post p.hero {
+		font-size: 18px;
+	}
+	a.sm-name {
+		width: 100%;
+		color: #000;
+		display: table;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 24px;
+	}
+
+	.daily-lifestyle-section a.sm-name {
+		font-size: 16px;
+		line-height: 14px;
+	}
+
+	.sidebar-posts .card .card-title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.tab-contant span.tp-cmnt-text {
+		font-size: 14px;
+	}
+
+	.sidebar-followme ul.followme-links li {
+		height: 90px;
+		width: 33.333%;
+	}
+	.sidebar-followme ul.followme-links li a i {
+		margin-top: 20px;
+	}
+
+	.sb-prv-post,
+	.sb-nxt-post {
+		height: 90px;
+	}
+	.pn-text {
+		padding: 0px 10px;
+	}
+
+	.contact-section ul.social-link li a>.s-icon {
+		margin-right: 20px;
+	}
+
+	.cateogry-section .slider .slides li .caption {
+		top: 15%;
+		left: 15%;
+		width: 70%;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+1 - media screen and (max-width: 1199px) End
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+2 - media screen and (max-width: 991px) Start --->>>for medium device
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 991px) {
+
+	.sidebar-testimonial .carousel-item .item-img {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+	}
+	.sidebar-testimonial .carousel-item .item-img > span {
+		line-height: 100px;
+	}
+	.carousel.carousel-slider .carousel-item h2 {
+		font-size: 18px;
+		line-height: 14px;
+	}
+	.sidebar-testimonial .carousel-item > small {
+		font-size: 14px;
+	}
+	.carousel.carousel-slider .carousel-item p {
+		font-size: 14px;
+	}
+
+
+	.daily-lifestyle-section .owl-theme .owl-nav {
+		display: none;
+	}
+	.daily-lifestyle-section .owl-dots {
+		display: block;
+		margin-top: 20px;
+	}
+	.owl-theme .owl-dots .owl-dot span {
+		background: #2962ff;
+		opacity: 0.3;
+	}
+	.owl-theme .owl-dots .owl-dot.active span,
+	.owl-theme .owl-dots .owl-dot:hover span {
+		background: #2962ff;
+		opacity: 1;
+	}
+
+	.sb-prv-post {
+		margin-bottom: 15px;
+	}
+	.sb-nxt-post {
+		margin-bottom: 0px;
+	}
+	.prv-nxt-post .pn-text a.title-name {
+		font-size: 36px;
+		line-height: 36px;
+		width: 100%;
+	}
+	.pn-text {
+		padding: 20px 20px;
+	}
+	.pn-text a.prv-nxt-btn {
+		font-size: 24px;
+	}
+
+	.leave-comment {
+		margin-bottom: 30px;
+	}
+
+	.sidebar-followme ul.followme-links li {
+		height: 175px;
+	}
+	.sidebar-followme ul.followme-links li a i {
+		margin-top: 50px;
+		font-size: 50px;
+	}
+	.sidebar-followme ul.followme-links li a small.Followers {
+		font-size: 18px;
+		padding: 20px 0px;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+2 - media screen and (max-width: 991px) End --->>>for medium device
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+3 - media screen and (max-width: 768px) Start --->>>For Mobile Device
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 768px){
+	.tab-contant .hot-post a.sm-name {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.top-post .hot-post .hot-post-image {
+		width: 30%;
+		float: left;
+	}
+	.tab-contant span.tp-cmnt-text {
+		font-size: 24px;
+	}
+
+	ul.pagination {
+		margin-bottom: 30px;
+	}
+
+	.error-contant {
+		padding: 100px 100px;
+	}
+
+	.contact-section .contact-things:last-child {
+		margin-bottom: 30px;
+	}
+	#google-map {
+		height: 300px;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+3 - media screen and (max-width: 768px) End --->>>For Mobile Device
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+4 - media screen and (max-width: 680px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 680px){}
+
+/* ------------------------------------------------------------------------------------------
+4 - media screen and (max-width: 680px) End
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+5 - media screen and (max-width: 480px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 480px){
+	ul.tag-list,
+	ul.share-links {
+		width: 100%;
+		float: none;
+		display: table;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	ul.tag-list li,
+	ul.share-links li {
+		float: none;
+		display: inline-block;
+	}
+
+	.pn-text {
+		padding: 5px 15px;
+	}
+	.prv-nxt-post .pn-text a.title-name {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.pn-text a.prv-nxt-btn {
+		font-size: 16px;
+	}
+
+	.top-post .hot-post .hot-post-image {
+		width: 100%;
+		float: none;
+	}
+
+	.tab-contant .hot-post a.sm-name {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.tab-contant span.tp-cmnt-text {
+		font-size: 14px;
+	}
+
+	.card .card-title {
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+
+	.sidebar-followme ul.followme-links li a small.Followers {
+		display: none;
+	}
+	.sidebar-followme ul.followme-links li {
+		height: 80px;
+	}
+	.sidebar-followme ul.followme-links li a {
+		line-height: 80px;
+	}
+	.sidebar-followme ul.followme-links li a > i {
+		margin: 0px;
+	}
+
+	.blogs ul.post-mate {
+		margin-top: 10px;
+		float: left;
+	}
+
+	.breadcrumb-nav .nav-wrapper {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.error-contant {
+		padding: 40px 40px;
+	}
+	.error-contant h2.error-head-title {
+		font-size: 100px;
+	}
+	.error-contant p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.slider .slides li .caption,
+	.cateogry-section .slider .slides li .caption {
+		top: 8%;
+		left: 5%;
+		width: 90%;
+	}
+	.slider .caption a.tag {
+		margin-bottom: 10px;
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------
+5 - media screen and (max-width: 480px) End
+------------------------------------------------------------------------------------------ */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+6 - media screen and (max-width: 320px) Start
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 320px){
+	.daily-lifestyle-section a.sm-name {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.card-stacked {
+		padding: 5px;
+	}
+	.daily-lifestyle-section .card {
+		margin: 0px;
+	}
+
+	.slider .slides li .caption {
+		padding: 15px;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------
+6 - media screen and (max-width: 320px) End
+------------------------------------------------------------------------------------------ */
